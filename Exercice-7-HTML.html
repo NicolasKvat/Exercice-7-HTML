@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+        <meta charset="utf-8">
+        <title>Exercice 7 HTML</title>
+        <link rel="stylesheet" href="style-ex7.css">
+  </head>
+    <body>
+        <form action="index.html" method="post">
+              <fieldset class="f1">
+                  <legend class="f1">Votre identité</legend>
+                    <ol>
+                        <li>
+                          <label for="Nominput">Nom :</label>
+                          <input type="text" name="Nom" id="Nominput" placeholder="Nom">
+                        </li>
+                        <li>
+                          <label for="Prenominput">Prénom :</label>
+                          <input type="text" name="Prenom" id="Prenominput" placeholder="Prénom">
+                        </li>
+                        <li>
+                          <label for="Adressemailinput">Adresse mail :</label>
+                          <input type="text" name="Adresse mail" id="Adressemailinput" placeholder="Adresse mail">
+                        </li>
+                    </ol>
+              </fieldset>
+              <fieldset class="f2">
+                  <legend class="f2">Adresse de livraison</legend>
+                    <ol>
+                        <li>
+                            <label for="Adresseinput">Adresse :</label>
+                            <textarea name="Adresse" id="Adresseinput" rows="8" cols="30"></textarea>
+                        </li>
+                        <li>
+                            <label for="Cpinput">Code postal :</label>
+                            <input type="text" name="Codepostal" id="Cpinput" placeholder="Code postal">
+                        </li>
+                        <li>
+                            <label for="Villeinput">Ville :</label>
+                            <input type="text" name="Ville" id="Villeinput" placeholder="Ville">
+                        </li>
+                    </ol>
+              </fieldset>
+              <fieldset class="f3">
+                  <legend class="f3">Information de réglement</legend>
+                    <ol>
+                        <li>
+                              <div class="typecarte">
+                                  <label>Type de carte bancaire :</label>
+                              </div>
+                              <div class="visa">
+                                  <input type="radio" name="typecarte" id="VISA">
+                                  <label for="VISA">VISA</label>
+                              </div>
+                              <div class="mastercard">
+                                  <input type="radio" name="typecarte" id="Mastercard">
+                                  <label for="Mastercard">Mastercard</label>
+                              </div>
+                        </li>
+                        <li>
+                          <label for="Ncarteinput">Numéro de carte :</label>
+                          <input type="text" name="Numéro de carte" id="Ncarteinput" placeholder="Numéro de carte">
+                        </li>
+                        <li>
+                          <label for="Codesecuinput">Code de sécurité :</label>
+                          <input type="text" name="Code de sécurité" id="Codesecuinput" placeholder="Code de sécurité">
+                        </li>
+                        <li>
+                          <label for="Nomtituinput">Nom du titulaire :</label>
+                          <input type="text" name="Nom du titulaire" id="Nomtituinput" placeholder="Nom du titulaire">
+                        </li>
+                    </ol>
+              </fieldset>
+        </form>
+    </body>
+</html>
